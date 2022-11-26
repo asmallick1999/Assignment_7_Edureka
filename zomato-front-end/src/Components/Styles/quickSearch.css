@@ -1,0 +1,36 @@
+.container-fluide {
+    width: 90%;
+    margin: 0 auto;
+    color: #192F60;
+}
+.container-fluide h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.container-fluide p{
+    font-size: 1.2rem;
+    
+}
+
+/* <!-------------------- Quick Search Items ------------------> */
+.container-menu-items {
+    display: flex;
+}
+.container-menu .row{
+    --bs-gutter-x: 0;
+}
+
+.item {
+    display: flex;
+    gap: 4%;
+
+}
+
+.item img {
+    width: 15vh;
+    height: auto;
+}
+
+.descp-item {
+    text-align: left;
+}
