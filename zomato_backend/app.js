@@ -9,7 +9,7 @@ const cors = require('cors')
 
 
 // constant
-const mongoDBLink = 'mongodb+srv://root:root@cluster0.ahlc728.mongodb.net/Zomato';
+const mongoDBLink = 'mongodb://localhost:27017/Zomato';
 const PORT = 4500;
 
 //Connect to mongoDB
